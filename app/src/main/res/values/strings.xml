@@ -5,4 +5,22 @@
     <string name="report">Laporan</string>
     <string name="profile">Profil</string>
     <string name="desc">Deskripsi</string>
+
+    <string name="add_item">Tambah Barang</string>
+    <string name="add">Tambah</string>
+    <string name="no_data_found">Kamu tidak memiliki daftar barang</string>
+    <string name="change_image">Ubah Gambar Produk</string>
+    <string name="product_desc">Deskripsi Produk</string>
+    <string name="product_price">Harga Produk</string>
+    <string name="product_stock">Stok Produk</string>
+
+    <string name="item_name">Nama Barang<font fgcolor="#FF0000">*</font></string>
+    <string name="item_category">Kategori Barang</string>
+    <string name="item_code">Kode Barang<font fgcolor="#FF0000">*</font></string>
+    <string name="cost">Ongkos<font fgcolor="#FF0000">*</font></string>
+    <string name="margin">Margin<font fgcolor="#FF0000">*</font></string>
+    <string name="price">Harga<font fgcolor="#FF0000">*</font></string>
+    <string name="stock_quantity">Jumlah Stok</string>
+    <string name="min_stock_quantity">Minimal Jumlah Stok</string>
+    <string name="reminder">Anda akan diingatkan jika stok dibawah jumlah minimal</string>
 </resources>

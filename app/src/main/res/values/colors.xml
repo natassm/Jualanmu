@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="yellow">#f7c90d</color>
+    <color name="colorPrimary">#FDC938</color>
     <color name="gray_icon">#4A4A4A</color>
     <color name="gray">#DCDCDC</color>
     <color name="white">#FFFFFF</color>
     <color name="silver">#C0C0C0</color>
     <color name="dim_gray">#696969</color>
-    <color name="black">#000000</color>
+    <color name="black">#191919</color>
+    <color name="black_2">#4A4A4A</color>
+
+    <color name="blue">#3172AF</color>
     <color name="transparent_black">#AA000000</color>
 </resources>
