@@ -4,12 +4,12 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.example.jualanmu.R
-import com.example.jualanmu.support.adapter.viewpager.JualanmuInventoryAdapter
+import com.example.jualanmu.support.adapter.viewpager.JualanmuInventoryViewPager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class JualanmuMainActivity: AppCompatActivity() {
 
-    private lateinit var adapter: JualanmuInventoryAdapter
+    private lateinit var adapter: JualanmuInventoryViewPager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +31,7 @@ class JualanmuMainActivity: AppCompatActivity() {
     }
 
     private fun setUpAdapter() {
-        adapter = JualanmuInventoryAdapter(supportFragmentManager)
+        adapter = JualanmuInventoryViewPager(supportFragmentManager)
         mainViewPager.addOnPageChangeListener(pageChangeListener)
         mainViewPager.adapter = adapter
     }

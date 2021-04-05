@@ -15,9 +15,9 @@ data class JualanmuInventoryEntity(
     @SerializedName(KEY_PRICE) val price: Int = 0,
     @SerializedName(KEY_CURRENT_STOCK) val currentStock: Int = 0,
     @SerializedName(KEY_MINIMUM_STOCK) val minimumStock: Int = 0,
+    @SerializedName(KEY_ID) val id: String = "",
     @SerializedName(KEY_UID) val userId: String? = null,
     @SerializedName(KEY_SHOP_ID)val shopId: String? = null,
-    @SerializedName(KEY_ID) val id: Int? = null,
     @SerializedName(KEY_IMAGE) val image: String? = null,
     @SerializedName(KEY_TIME_STAMP) val timeStamp: String? = null
 ) : Parcelable
